@@ -109,3 +109,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4000",  # Ajustar según sea necesario
 ]
+
+
+ALLOWED_HOSTS = ['ubishop.onrender.com', 'yourdomain.com', 'localhost', '127.0.0.1']
