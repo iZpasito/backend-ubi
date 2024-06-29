@@ -49,7 +49,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'front/build')
+            os.path.join(BASE_DIR, 'front-master/build')
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -99,7 +99,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'front/build/static')
+    os.path.join(BASE_DIR, 'front-master/build/static')
 ]
 
 # Default primary key field type
