@@ -111,4 +111,4 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 
-ALLOWED_HOSTS = ['ubishop.onrender.com', 'yourdomain.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['ubishop.onrender.com', 'localhost', '127.0.0.1']
